@@ -85,7 +85,7 @@ UserSchema.statics.findByCredentials = function (email, password) {
           reject();
         }
       });
-    });
+    }); //9131417067
   });
 };
 
